@@ -1,0 +1,14 @@
+filesystem:
+  root: "."
+  allowed_extensions:
+    - .py
+    - .cpp
+    - .h
+    - .md
+    - .json
+    - .yaml
+    - .log
+
+security:
+  allow_write: false
+  max_file_size_mb: 10
